@@ -14,7 +14,6 @@ button{
     border: .5px solid #364f6b;
 
     outline: none;
-    font-size:2vw;
     cursor: pointer;
     font-weight: 800;
     }
@@ -36,7 +35,6 @@ button{
         color:#364f6b;
         font-weight: 800;
         margin-top:2%;
-        font-size: 2vw;
 
 
     }
@@ -47,6 +45,7 @@ button{
     button 
     {
         height: 25px;
+        
     }
     input
     {
