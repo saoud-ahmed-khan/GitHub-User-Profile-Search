@@ -1,10 +1,8 @@
 
 button{
     display: inline-block;
-    padding-top:3%;
-    padding-bottom:3%;
-
-    margin: 2%;
+    margin-top: 2%;
+    margin-left: 3%;
     border-radius:0.12em;
     text-decoration:none;
     font-family:'Roboto',sans-serif;
@@ -13,6 +11,8 @@ button{
     transition: all 0.2s;
     background-color: #3FC1C9;
     border: none;
+    border: .5px solid #364f6b;
+
     outline: none;
     font-size:2vw;
     cursor: pointer;
@@ -22,17 +22,73 @@ button{
     {
         display: flex;
         justify-content: center;
+        flex-direction: row;
+        align-items: baseline;
     }
-    button:hover{
+   button:hover
+   {
     color:#3FC1C9;
     background-color:#364f6b;
     }
-    /* @media all and (max-width:30em)
+    input{
+        border: .5px solid #364f6b;
+        background: transparent;
+        color:#364f6b;
+        font-weight: 800;
+        margin-top:2%;
+        font-size: 2vw;
+
+
+    }
+
+    /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+{
+    button 
     {
-        button
-        {
-            display: block;
-            
-        }
-    } */
+        height: 25px;
+    }
+    input
+    {
+        height: 22px;
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+    button, input
+    {
+        height: 30px;
+    }
+   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+    button, input
+    {
+        height: 35px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+    button, input
+    {
+        height: 45px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
+{
+    button,input
+    {
+        height: 50px;
+    }
+}
     

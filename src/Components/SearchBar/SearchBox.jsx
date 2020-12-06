@@ -6,11 +6,11 @@ export function Searchbox() {
 
     return (
         <div className="search-main">
-            <div>
+            <div className="search-input">
                 <input />
             </div>
             <div>
-                <button>SEARCH</button>
+                <button className="button">SEARCH</button>
             </div>
 
         </div>
