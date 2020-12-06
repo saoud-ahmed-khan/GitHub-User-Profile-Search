@@ -1,8 +1,10 @@
 
 button{
     display: inline-block;
-    padding:1%;
-    margin:0 0.3em 0.3em 0;
+    padding-top:3%;
+    padding-bottom:3%;
+
+    margin: 2%;
     border-radius:0.12em;
     text-decoration:none;
     font-family:'Roboto',sans-serif;
@@ -16,16 +18,21 @@ button{
     cursor: pointer;
     font-weight: 800;
     }
+    .search-main
+    {
+        display: flex;
+        justify-content: center;
+    }
     button:hover{
     color:#3FC1C9;
     background-color:#364f6b;
     }
-    @media all and (max-width:30em)
+    /* @media all and (max-width:30em)
     {
         button
         {
             display: block;
             
         }
-    }
+    } */
     

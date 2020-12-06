@@ -5,7 +5,7 @@ export function Searchbox() {
 
 
     return (
-        <div>
+        <div className="search-main">
             <div>
                 <input />
             </div>
