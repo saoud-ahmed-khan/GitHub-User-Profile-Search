@@ -1,0 +1,31 @@
+
+button{
+    display: inline-block;
+    padding:1%;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    color:#364f6b;
+    text-align:center;
+    transition: all 0.2s;
+    background-color: #3FC1C9;
+    border: none;
+    outline: none;
+    font-size:2vw;
+    cursor: pointer;
+    font-weight: 800;
+    }
+    button:hover{
+    color:#3FC1C9;
+    background-color:#364f6b;
+    }
+    @media all and (max-width:30em)
+    {
+        button
+        {
+            display: block;
+            
+        }
+    }
+    

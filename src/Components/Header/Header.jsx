@@ -1,11 +1,12 @@
 import React from 'react'
+import "./Header.css"
 
 export function Header() {
     
 
     return (
-        <>
-          <h1>GitHub User Search</h1>  
-        </>
+        <div className="header-main">
+          GitHub User Search
+        </div>
     )
 }
