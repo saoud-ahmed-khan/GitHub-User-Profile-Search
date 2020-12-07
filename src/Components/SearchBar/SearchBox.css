@@ -45,11 +45,13 @@ button{
     button 
     {
         height: 25px;
-        
+        font-size: 15px;
     }
     input
     {
         height: 22px;
+        font-size: 15px;
+
     }
     
 }
@@ -60,6 +62,7 @@ button{
     button, input
     {
         height: 30px;
+        font-size: 20px;
     }
    
 }
@@ -70,6 +73,7 @@ button{
     button, input
     {
         height: 35px;
+        font-size: 20px;
     }
 }
 
@@ -79,6 +83,7 @@ button{
     button, input
     {
         height: 45px;
+        font-size: 22px;
     }
 }
 
@@ -88,6 +93,7 @@ button{
     button,input
     {
         height: 50px;
+        font-size: 27px;
     }
 }
     
