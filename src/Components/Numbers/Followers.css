@@ -10,6 +10,8 @@
     text-align: center;
     align-items: center;
     margin-bottom: 2%;
+    padding-top: .5%;
+    padding-bottom: .5%;
 }
 .rendering-main{
     max-width: 80%;
@@ -25,5 +27,5 @@
 }
 .followers-logo
 {
-    margin-right: 20%;
+    margin-right: 40%;
 }
