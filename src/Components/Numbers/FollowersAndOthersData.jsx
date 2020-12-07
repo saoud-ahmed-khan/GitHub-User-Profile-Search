@@ -7,7 +7,7 @@ export function Followersandothersdata() {
     return (
         <div>
             <div>
-                <BsPeopleFill color="#364f6b" />
+                <BsPeopleFill color="#364f6b" size="3vw"/>
             </div>
             <div>
 
