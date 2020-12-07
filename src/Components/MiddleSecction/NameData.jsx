@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Avatars.css"
 
 
 export function Namedata({ Icon, Name }) {
@@ -6,8 +7,8 @@ export function Namedata({ Icon, Name }) {
 
     return (
         <div className="Namedata-main">
-            <div> {<Icon color="#364f6b" size="2vw" />}</div>
-            <div>{Name}</div>
+            <div className="Name-Icon"> {<Icon color="#364f6b" size="2vw" />}</div>
+            <div className="Name-Name">{Name}</div>
         </div>
     )
 }

@@ -1,5 +1,21 @@
 .Namedata-main
 {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Name-Icon
+{
+    order: 1;
+}
+.Name-Name
+{
+    order: 2;
+}
+.main-Avatars
+{
+    display: flex;
     flex-direction: column;
+    width: 30%;
+    justify-content: center;
 }
