@@ -18,6 +18,8 @@
     .follower-main
     {
         width: 110px;
+        height: 40px;
+
     }
     
 }
@@ -28,6 +30,8 @@
     .follower-main
     {
         width: 120px;
+        height: 50px;
+
     }
    
 }
@@ -38,6 +42,8 @@
     .follower-main
     {
         width: 130px;
+        height: 60px;
+
     }
 }
 
@@ -46,7 +52,9 @@
 {
     .follower-main
     {
-        width: 140px;
+        width: 135px;
+        height: 75px;
+
     }
 }
 
@@ -55,7 +63,8 @@
 {
     .follower-main
     {
-        width: 150px;
+        width: 145px;
+        height: 90px;
     }
 }
     
