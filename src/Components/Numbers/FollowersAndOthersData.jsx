@@ -13,9 +13,9 @@ export function Followersandothersdata() {
             </div>
             <div>
                 <div><CountUp className="follower-num" start={0} end={20} duration={4} /></div>
-                <div>Repo</div>
+                <div className="follower-text">FOLLOWERS</div>
                 
             </div>
         </div>
     )
-}
+} 
