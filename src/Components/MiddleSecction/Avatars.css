@@ -22,6 +22,19 @@
     justify-content: center;
     align-items: center;
 }
+.textdata-main
+{
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.textdata-main
+{
+
+    font-size:large ;
+}
+
 .Avatars-pic
 {
     border-radius: 50%;
@@ -38,6 +51,12 @@
 .Textdata
 {
     flex: 2.5;
+    border: 2px solid #364f6b;
+    margin-left: 2%;
+    order: 2;
+    width: 70%;
+
+    
 }
 .Avatars
 {
@@ -48,5 +67,21 @@
     padding-top: .5%;
     padding-bottom: .5%;
     border-radius: 10px;
-    flex: 1.8;
+    width: 30%;
+    order: 1;
+}
+@media only screen and (min-width: 1200px) 
+{
+    .Avatars
+    {
+        flex: 1;
+    }
+}
+
+@media only screen and (min-width: 922px) 
+{
+    .Avatars
+    {
+        flex: 1;
+    }
 }
