@@ -14,7 +14,6 @@
     justify-content: center;
     text-align: center;
     padding-bottom: .2%;
-    font-size:3vw;
     background-color: #3FC1C9;
     font-weight: 700;
     margin: auto;
@@ -26,8 +25,49 @@
 {
     display: flex;
     justify-content: space-around;
+    align-items: baseline;
     padding-top: 1%;
     padding-bottom: 1%;
     border-bottom: 1px solid #364f6b;
+    }
+    @media only screen and (min-width: 600px) 
+{
+    
+   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+  .repo-texr
+  {
+      font-size: 20px;
+  }  
+  .rendering-repo-main
+  {
+      font-size: 16px;
+  }
+}
+@media only screen and (min-width: 922px) 
+{
+    .repo-texr
+    {
+        font-size: 22px;
+    }    
+    .rendering-repo-main
+  {
+      font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1200px) 
+{
+    .repo-texr
+  {
+      font-size: 24px;
+  } 
+  .rendering-repo-main
+  {
+      font-size: 18px;
+  }
     
 }
