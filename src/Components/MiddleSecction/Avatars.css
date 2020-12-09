@@ -86,7 +86,7 @@
     width: 30%;
     order: 1;
 }
-@media only screen and (max-width: 460px) 
+@media only screen and (max-width: 500px) 
 {
     .Avatars
     {
@@ -109,11 +109,11 @@
 @media only screen and (max-width: 600px) 
 {
     .textdata-main>div{
-        font-size: 16px;
+        font-size: 14px;
     }
     .Avatars
     {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 @media only screen and (min-width: 600px) 
