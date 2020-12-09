@@ -34,11 +34,11 @@
     border-top: 2px solid black;
     width: 100%;
     text-align: center;
-    padding-top: 5.8%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     display: flex;
-    align-content: center;
-    align-items: center;
     justify-content: center;
+
 
 }
 
