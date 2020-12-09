@@ -31,16 +31,21 @@
 }
 
 .textdata-main>div{
-    border-top: 2px solid black;
+    border-top: 1px solid #364f6b;
     width: 100%;
     text-align: center;
     padding-top: 3%;
     padding-bottom: 3%;
     display: flex;
     justify-content: center;
-
-
+    color: #364f6b;
 }
+.textdata-main>div>span
+{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
 
 
 .Avatars-pic
@@ -63,7 +68,7 @@
     margin-left: 2%;
     order: 2;
     width: 70%;
-    border-bottom: 5px solid #364f6b;
+    border-bottom: 7px solid #364f6b;
     border-radius: 10px;
 
 
@@ -83,13 +88,69 @@
 }
 @media only screen and (max-width: 460px) 
 {
-    .Avatars{
+    .Avatars
+    {
         width: 100%;
-
+        font-size: 14px;
     }
     .Textdata
     {
         width: 100%;
+    }
+    .textdata-main>div{
+        font-size: 14px;
+    }
+    .Avatars
+    {
+        font-size: 14px;
+    }
+   
+}
+@media only screen and (max-width: 600px) 
+{
+    .textdata-main>div{
+        font-size: 16px;
+    }
+    .Avatars
+    {
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width: 600px) 
+{
+    .textdata-main>div{
+        font-size: 16px;
+    }
+    .Avatars
+    {
+        font-size: 16px;
+    }
+   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+    .textdata-main>div{
+        font-size: 18px;
+    }
+    .Avatars
+    {
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width: 922px) 
+{
+    .Avatars
+    {
+        flex: 1;
+    }
+    .textdata-main>div{
+        font-size: 22px;
+    }
+    .Avatars
+    {
+        font-size: 22px;
     }
 }
 @media only screen and (min-width: 1200px) 
@@ -98,12 +159,12 @@
     {
         flex: 1;
     }
-}
-
-@media only screen and (min-width: 922px) 
-{
+    .textdata-main>div{
+        font-size: 25px;
+    }
     .Avatars
     {
-        flex: 1;
+        font-size: 25px;
     }
 }
+
