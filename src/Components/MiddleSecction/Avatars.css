@@ -81,6 +81,17 @@
     width: 30%;
     order: 1;
 }
+@media only screen and (max-width: 460px) 
+{
+    .Avatars{
+        width: 100%;
+
+    }
+    .Textdata
+    {
+        width: 100%;
+    }
+}
 @media only screen and (min-width: 1200px) 
 {
     .Avatars
