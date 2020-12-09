@@ -1,0 +1,33 @@
+.Repo-main
+{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-top: 3%;
+    border: 2px solid #364f6b;
+}
+.repo-texr
+{
+    font-family: 'Pacifico';
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: .2%;
+    font-size:3vw;
+    background-color: #3FC1C9;
+    font-weight: 700;
+    margin: auto;
+    width: 100%;
+
+    border-top: 7px solid #364f6b;
+}
+.rendering-repo-main
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-bottom: 1px solid #364f6b;
+    
+}

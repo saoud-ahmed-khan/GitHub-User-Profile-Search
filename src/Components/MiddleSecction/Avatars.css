@@ -43,8 +43,9 @@
 }
 .textdata-main>div>span
 {
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 500;
+    margin-right: 2%;
 }
 
 
@@ -94,7 +95,7 @@
     .Avatars
     {
         width: 100%;
-        font-size: 10px;
+        font-size: 12px;
     }
     .Textdata
     {
@@ -102,7 +103,7 @@
         margin-left: 0;
     }
     .textdata-main>div{
-        font-size: 10px;
+        font-size: 12px;
     }
     
    
@@ -110,21 +111,21 @@
 @media only screen and (max-width: 600px) 
 {
     .textdata-main>div{
-        font-size: 11px;
+        font-size: 14px;
     }
     .Avatars
     {
-        font-size: 11px;
+        font-size: 14px;
     }
 }
 @media only screen and (min-width: 600px) 
 {
     .textdata-main>div{
-        font-size: 12px;
+        font-size: 13px;
     }
     .Avatars
     {
-        font-size: 12px;
+        font-size: 13px;
     }
    
 }
