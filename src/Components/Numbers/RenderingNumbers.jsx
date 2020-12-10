@@ -1,11 +1,15 @@
-import React from 'react'
+import React,{useContext} from 'react'
+import { Contextdata } from "../Context/ContextProvider";
 import { Followersandothersdata } from "./FollowersAndOthersData";
-export function Renderingnumbers(props) {
-    
-
+import { BsPeopleFill } from "react-icons/bs";
+export function Renderingnumbers() 
+{
+  const data=useContext(Contextdata)
+   const {post}=data;
+   console.log(post.followers);
     return (
         <div className="rendering-main">
-          <Followersandothersdata/>
+          <Followersandothersdata pic={BsPeopleFill} text="Followers" number={post.followers}/>
           <Followersandothersdata/>
           <Followersandothersdata/>
           <Followersandothersdata/>  

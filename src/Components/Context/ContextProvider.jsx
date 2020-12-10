@@ -1,17 +1,17 @@
-import React from 'react'
-import axios from 'axios'
-export function Contextprovider(props) {
-    
-    const [post,setPost] = React.useState({}); 
-    React.useEffect(()=>{
-        axios.get("https://api.github.com/users/saoud-ahmed-khan")
-        .then((res)=>{setPost(res.data)})
-        .catch((e)=>{console.log(e);})
-    },[])
-    console.log(post.name);
+import React,{createContext} from 'react'
+import { Api } from "../api/Api";
+
+
+export const Contextdata= createContext();
+export function Contextprovider({children}) {
+    const {post,repos,seturl}=Api();
+    console.log(post);
+    console.log(repos);
+
     return (
-        <div>
-            
-        </div>
+        <Contextdata.Provider value={{post,repos,seturl}}>
+            {children}
+        </Contextdata.Provider>
     )
 }
+
