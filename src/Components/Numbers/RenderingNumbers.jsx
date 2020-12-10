@@ -2,17 +2,21 @@ import React,{useContext} from 'react'
 import { Contextdata } from "../Context/ContextProvider";
 import { Followersandothersdata } from "./FollowersAndOthersData";
 import { BsPeopleFill } from "react-icons/bs";
+import { BsPersonLinesFill } from "react-icons/bs";
+import { GoRepo } from "react-icons/go"
+import { GoGist } from "react-icons/go"
+
 export function Renderingnumbers() 
 {
-  const data=useContext(Contextdata)
-   const {post}=data;
-   console.log(post.followers);
+  let data=useContext(Contextdata)
+   let {post}=data;
+   console.log(post.public_gist);
     return (
         <div className="rendering-main">
-          <Followersandothersdata pic={<BsPeopleFill color="#364f6b" size="3.3vw" />} text="Followers" number={post.followers}/>
-          <Followersandothersdata pic={<BsPeopleFill color="#364f6b" size="3.3vw" />} text="Followers" number={post.followers}/>
-          <Followersandothersdata/>
-          <Followersandothersdata/>  
+          <Followersandothersdata Icon={BsPeopleFill } text="Followers" number={post.followers}/>
+          <Followersandothersdata Icon={BsPersonLinesFill } text="Following" number={post.following}/>
+          <Followersandothersdata Icon={GoRepo } text="Repos" number={post.public_repos}/>
+          <Followersandothersdata Icon={GoGist } text="Gists" number={post.public_gists}/>  
   
   
   
