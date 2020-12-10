@@ -9,8 +9,8 @@ export function Renderingnumbers()
    console.log(post.followers);
     return (
         <div className="rendering-main">
-          <Followersandothersdata pic={BsPeopleFill} text="Followers" number={post.followers}/>
-          <Followersandothersdata/>
+          <Followersandothersdata pic={<BsPeopleFill color="#364f6b" size="3.3vw" />} text="Followers" number={post.followers}/>
+          <Followersandothersdata pic={<BsPeopleFill color="#364f6b" size="3.3vw" />} text="Followers" number={post.followers}/>
           <Followersandothersdata/>
           <Followersandothersdata/>  
   
