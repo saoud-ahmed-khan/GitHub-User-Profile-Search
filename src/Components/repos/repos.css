@@ -35,17 +35,32 @@
         justify-self: center;
 
     }
-    rendering-repo-main> .repolanguage
+    .rendering-repo-main> .repolanguage
     {
         width: 25%;
         justify-self: center;
         
     }
-    rendering-repo-main> .star
+    .rendering-repo-main> .star
     {
-        width: 50%;
         justify-self: end;
-        
+        width: 25%;
+    }
+    
+    @media only screen and (max-width: 600px) 
+{
+    .rendering-repo-main
+    {
+        font-size: 11px;
+    }
+}
+
+    @media only screen and (min-width: 600px) 
+    {
+        .rendering-repo-main
+  {
+      font-size: 13px;
+  }
     }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -57,7 +72,7 @@
   }  
   .rendering-repo-main
   {
-      font-size: 16px;
+      font-size: 14px;
   }
 }
 @media only screen and (min-width: 922px) 

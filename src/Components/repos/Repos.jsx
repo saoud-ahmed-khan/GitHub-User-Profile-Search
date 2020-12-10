@@ -15,7 +15,7 @@ console.log(repos);
                 repos.map((repo)=>
                 {
                     return(
-                    <Renderingrepo reponame={repo.name} fork={repo.forks} language={repo.language}/>
+                    <Renderingrepo reponame={repo.name} fork={repo.stargazers_count} language={repo.language}/>
                     )
                 })
             }
