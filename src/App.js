@@ -4,6 +4,8 @@ import { Searchbox } from "./Components/SearchBar/SearchBox";
 import { Renderingnumbers } from "./Components/Numbers/RenderingNumbers";
 import { Middlesection } from "./Components/MiddleSecction/MiddleSection";
 import { Repos } from "./Components/repos/Repos";
+import { Contextprovider
+ } from "./Components/Context/ContextProvider";
 function App() {
   return (
     <div >
@@ -11,7 +13,8 @@ function App() {
       <Searchbox/>
       <Renderingnumbers/>
       <Middlesection/>
-      <Repos/>     
+      <Repos/> 
+      <Contextprovider/>    
     </div>
   );
 }
