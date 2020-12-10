@@ -24,17 +24,29 @@
 .rendering-repo-main
 {
     display: flex;
-    justify-content: space-around;
-    align-items: baseline;
+  
     padding-top: 1%;
     padding-bottom: 1%;
     border-bottom: 1px solid #364f6b;
     }
-    @media only screen and (min-width: 600px) 
-{
-    
-   
-}
+    .rendering-repo-main> .reponame
+    {
+      width: 50%;
+        justify-self: center;
+
+    }
+    rendering-repo-main> .repolanguage
+    {
+        width: 25%;
+        justify-self: center;
+        
+    }
+    rendering-repo-main> .star
+    {
+        width: 50%;
+        justify-self: end;
+        
+    }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) 
