@@ -10,12 +10,12 @@ export function Api(props) {
         axios.get(`https://api.github.com/users/${url}?clientId=${clientid}&clientSecret=${clientsecret}`)
             .then((res) => { setPost(res.data) })
             .catch((e) => { console.log(e); })
-    }, [])
+    }, [url])
 
     useEffect(() => {
         axios.get(`https://api.github.com/users/${url}/repos?clientId=${clientid}&clientSecret=${clientsecret}`)
             .then((res) => { setrepos(res.data) })
             .catch((e) => { console.log(e); })
-    }, [])
-    return { post, seturl, repos }
+    }, [url])
+    return { post, seturl, repos , url}
 }

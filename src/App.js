@@ -14,7 +14,7 @@ function App() {
         <Renderingnumbers/>
         <Middlesection/>
         <Repos/> 
-        </Contextprovider>     
+      </Contextprovider>     
     </div>
   );
 }

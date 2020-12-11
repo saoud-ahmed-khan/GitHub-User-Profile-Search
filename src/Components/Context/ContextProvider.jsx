@@ -4,12 +4,11 @@ import { Api } from "../api/Api";
 
 export const Contextdata= createContext();
 export function Contextprovider({children}) {
-    const {post,repos,seturl}=Api();
-    console.log(post);
-    console.log(repos);
+    const {post,repos,seturl,url}=Api();
+   
 
     return (
-        <Contextdata.Provider value={{post,repos,seturl}}>
+        <Contextdata.Provider value={{post,repos,seturl,url}}>
             {children}
         </Contextdata.Provider>
     )

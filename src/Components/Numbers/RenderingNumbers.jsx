@@ -10,7 +10,6 @@ export function Renderingnumbers()
 {
   let data=useContext(Contextdata)
    let {post}=data;
-   console.log(post.public_gist);
     return (
         <div className="rendering-main">
           <Followersandothersdata Icon={BsPeopleFill } text="Followers" number={post.followers}/>

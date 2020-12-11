@@ -5,7 +5,6 @@ import { Renderingrepo } from "./RenderingRepo";
 export function Repos(props) {
 let data=useContext(Contextdata)
 let {repos}=data
-console.log(repos);
 
     return (
         <div className="Repo-main">
