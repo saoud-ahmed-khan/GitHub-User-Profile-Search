@@ -2,8 +2,6 @@ import React,{useContext} from 'react'
 import { Contextdata } from "../Context/ContextProvider";
 import "./Avatars.css"
 import { BsPersonSquare } from "react-icons/bs";
-import { GoLocation } from "react-icons/go";
-
 import { Namedata } from "./NameData";
 import  pick  from "../Context/pic.jpeg";
 import "./Avatars.css"
